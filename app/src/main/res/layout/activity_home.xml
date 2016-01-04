@@ -16,4 +16,9 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="50dp" />
+    <Button
+        android:layout_marginTop="100dp"
+        android:text="HI NEWS"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
