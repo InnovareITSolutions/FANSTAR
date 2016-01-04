@@ -19,7 +19,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="50dp"
-        android:text="RGV"
+        android:text="RGV "
         android:layout_marginTop="50dp"/>
     <Button
         android:layout_marginTop="100dp"
