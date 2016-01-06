@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgcolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_margin="7dp"
+        android:background="@color/bgcolor">
+       <FrameLayout
+           android:layout_width="0dp"
+           android:layout_height="80dp"
+           android:layout_weight="1">
+           <com.mikhaellopez.circularimageview.CircularImageView
+               android:id="@+id/your_fan_pic"
+               android:layout_width="75dp"
+               android:layout_height="75dp"
+               android:layout_gravity="center"
+               android:scaleType="fitXY"
+               app:border_width="0dp"/>
+       </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="3">
+        <TextView
+            android:id="@+id/your_fan_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Celebrity Name"
+            android:textSize="18sp"
+            android:layout_gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/right_mark"/>
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>
